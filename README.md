@@ -44,3 +44,8 @@ Library To Install
 11. pip3 
 12. numpy
 
+
+
+*Conclusion:
+
+In our model, we apply a logic where the camera continuously track the driver's eyes. If the driver closes their eyes for more than 2 seconds, indicating a state of  drowsiness, or if the driver consistently keeps their eyes open for more than 10 seconds, indicating a state of hypnosis.  If either of the two conditions is true, the system will activate an voice alert message, and a vibration motor will generate haptic feedback on the steering. With the help of this mechanism ,the driver willl snap out from hypnosis or drowsinees state ,overall it will  heightened awareness and it will create a safer environment for driver ,passsenger and the family. 
